@@ -1,0 +1,2354 @@
+[
+  {
+    "kuntakoodi": 20.0,
+    "kunta": "Akaa",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 1.0
+  },
+  {
+    "kuntakoodi": 5.0,
+    "kunta": "Alaj\u00e4rvi",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 2.0
+  },
+  {
+    "kuntakoodi": 9.0,
+    "kunta": "Alavieska",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 3.0
+  },
+  {
+    "kuntakoodi": 10.0,
+    "kunta": "Alavus",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 4.0
+  },
+  {
+    "kuntakoodi": 16.0,
+    "kunta": "Asikkala",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 5.0
+  },
+  {
+    "kuntakoodi": 18.0,
+    "kunta": "Askola",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 6.0
+  },
+  {
+    "kuntakoodi": 19.0,
+    "kunta": "Aura",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 7.0
+  },
+  {
+    "kuntakoodi": 46.0,
+    "kunta": "Enonkoski",
+    "shp-koodi": 11.0,
+    "shp": "It\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 8.0
+  },
+  {
+    "kuntakoodi": 47.0,
+    "kunta": "Enonteki\u00f6",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 9.0
+  },
+  {
+    "kuntakoodi": 49.0,
+    "kunta": "Espoo",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 10.0
+  },
+  {
+    "kuntakoodi": 50.0,
+    "kunta": "Eura",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 11.0
+  },
+  {
+    "kuntakoodi": 51.0,
+    "kunta": "Eurajoki",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 12.0
+  },
+  {
+    "kuntakoodi": 52.0,
+    "kunta": "Evij\u00e4rvi",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 13.0
+  },
+  {
+    "kuntakoodi": 61.0,
+    "kunta": "Forssa",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 14.0
+  },
+  {
+    "kuntakoodi": 69.0,
+    "kunta": "Haapaj\u00e4rvi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 15.0
+  },
+  {
+    "kuntakoodi": 71.0,
+    "kunta": "Haapavesi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 16.0
+  },
+  {
+    "kuntakoodi": 72.0,
+    "kunta": "Hailuoto",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 17.0
+  },
+  {
+    "kuntakoodi": 74.0,
+    "kunta": "Halsua",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 18.0
+  },
+  {
+    "kuntakoodi": 75.0,
+    "kunta": "Hamina",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 19.0
+  },
+  {
+    "kuntakoodi": 77.0,
+    "kunta": "Hankasalmi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 20.0
+  },
+  {
+    "kuntakoodi": 78.0,
+    "kunta": "Hanko",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 21.0
+  },
+  {
+    "kuntakoodi": 79.0,
+    "kunta": "Harjavalta",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 22.0
+  },
+  {
+    "kuntakoodi": 81.0,
+    "kunta": "Hartola",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 23.0
+  },
+  {
+    "kuntakoodi": 82.0,
+    "kunta": "Hattula",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 24.0
+  },
+  {
+    "kuntakoodi": 86.0,
+    "kunta": "Hausj\u00e4rvi",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 25.0
+  },
+  {
+    "kuntakoodi": 111.0,
+    "kunta": "Heinola",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 26.0
+  },
+  {
+    "kuntakoodi": 90.0,
+    "kunta": "Hein\u00e4vesi",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 27.0
+  },
+  {
+    "kuntakoodi": 91.0,
+    "kunta": "Helsinki",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 28.0
+  },
+  {
+    "kuntakoodi": 97.0,
+    "kunta": "Hirvensalmi",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 29.0
+  },
+  {
+    "kuntakoodi": 98.0,
+    "kunta": "Hollola",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 30.0
+  },
+  {
+    "kuntakoodi": 99.0,
+    "kunta": "Honkajoki",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 31.0
+  },
+  {
+    "kuntakoodi": 102.0,
+    "kunta": "Huittinen",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 32.0
+  },
+  {
+    "kuntakoodi": 103.0,
+    "kunta": "Humppila",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 33.0
+  },
+  {
+    "kuntakoodi": 105.0,
+    "kunta": "Hyrynsalmi",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 34.0
+  },
+  {
+    "kuntakoodi": 106.0,
+    "kunta": "Hyvink\u00e4\u00e4",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 35.0
+  },
+  {
+    "kuntakoodi": 108.0,
+    "kunta": "H\u00e4meenkyr\u00f6",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 36.0
+  },
+  {
+    "kuntakoodi": 109.0,
+    "kunta": "H\u00e4meenlinna",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 37.0
+  },
+  {
+    "kuntakoodi": 139.0,
+    "kunta": "Ii",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 38.0
+  },
+  {
+    "kuntakoodi": 140.0,
+    "kunta": "Iisalmi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 39.0
+  },
+  {
+    "kuntakoodi": 142.0,
+    "kunta": "Iitti",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 40.0
+  },
+  {
+    "kuntakoodi": 143.0,
+    "kunta": "Ikaalinen",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 41.0
+  },
+  {
+    "kuntakoodi": 145.0,
+    "kunta": "Ilmajoki",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 42.0
+  },
+  {
+    "kuntakoodi": 146.0,
+    "kunta": "Ilomantsi",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 43.0
+  },
+  {
+    "kuntakoodi": 153.0,
+    "kunta": "Imatra",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 44.0
+  },
+  {
+    "kuntakoodi": 148.0,
+    "kunta": "Inari",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 45.0
+  },
+  {
+    "kuntakoodi": 149.0,
+    "kunta": "Inkoo",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 46.0
+  },
+  {
+    "kuntakoodi": 151.0,
+    "kunta": "Isojoki",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 47.0
+  },
+  {
+    "kuntakoodi": 152.0,
+    "kunta": "Isokyr\u00f6",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 48.0
+  },
+  {
+    "kuntakoodi": 165.0,
+    "kunta": "Janakkala",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 49.0
+  },
+  {
+    "kuntakoodi": 167.0,
+    "kunta": "Joensuu",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 50.0
+  },
+  {
+    "kuntakoodi": 169.0,
+    "kunta": "Jokioinen",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 51.0
+  },
+  {
+    "kuntakoodi": 171.0,
+    "kunta": "Joroinen",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 52.0
+  },
+  {
+    "kuntakoodi": 172.0,
+    "kunta": "Joutsa",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 53.0
+  },
+  {
+    "kuntakoodi": 176.0,
+    "kunta": "Juuka",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 54.0
+  },
+  {
+    "kuntakoodi": 177.0,
+    "kunta": "Juupajoki",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 55.0
+  },
+  {
+    "kuntakoodi": 178.0,
+    "kunta": "Juva",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 56.0
+  },
+  {
+    "kuntakoodi": 179.0,
+    "kunta": "Jyv\u00e4skyl\u00e4",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 57.0
+  },
+  {
+    "kuntakoodi": 181.0,
+    "kunta": "J\u00e4mij\u00e4rvi",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 58.0
+  },
+  {
+    "kuntakoodi": 182.0,
+    "kunta": "J\u00e4ms\u00e4",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 59.0
+  },
+  {
+    "kuntakoodi": 186.0,
+    "kunta": "J\u00e4rvenp\u00e4\u00e4",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 60.0
+  },
+  {
+    "kuntakoodi": 202.0,
+    "kunta": "Kaarina",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 61.0
+  },
+  {
+    "kuntakoodi": 204.0,
+    "kunta": "Kaavi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 62.0
+  },
+  {
+    "kuntakoodi": 205.0,
+    "kunta": "Kajaani",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 63.0
+  },
+  {
+    "kuntakoodi": 208.0,
+    "kunta": "Kalajoki",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 64.0
+  },
+  {
+    "kuntakoodi": 211.0,
+    "kunta": "Kangasala",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 65.0
+  },
+  {
+    "kuntakoodi": 213.0,
+    "kunta": "Kangasniemi",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 66.0
+  },
+  {
+    "kuntakoodi": 214.0,
+    "kunta": "Kankaanp\u00e4\u00e4",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 67.0
+  },
+  {
+    "kuntakoodi": 216.0,
+    "kunta": "Kannonkoski",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 68.0
+  },
+  {
+    "kuntakoodi": 217.0,
+    "kunta": "Kannus",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 69.0
+  },
+  {
+    "kuntakoodi": 218.0,
+    "kunta": "Karijoki",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 70.0
+  },
+  {
+    "kuntakoodi": 224.0,
+    "kunta": "Karkkila",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 71.0
+  },
+  {
+    "kuntakoodi": 226.0,
+    "kunta": "Karstula",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 72.0
+  },
+  {
+    "kuntakoodi": 230.0,
+    "kunta": "Karvia",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 73.0
+  },
+  {
+    "kuntakoodi": 231.0,
+    "kunta": "Kaskinen",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 74.0
+  },
+  {
+    "kuntakoodi": 232.0,
+    "kunta": "Kauhajoki",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 75.0
+  },
+  {
+    "kuntakoodi": 233.0,
+    "kunta": "Kauhava",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 76.0
+  },
+  {
+    "kuntakoodi": 235.0,
+    "kunta": "Kauniainen",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 77.0
+  },
+  {
+    "kuntakoodi": 236.0,
+    "kunta": "Kaustinen",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 78.0
+  },
+  {
+    "kuntakoodi": 239.0,
+    "kunta": "Keitele",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 79.0
+  },
+  {
+    "kuntakoodi": 240.0,
+    "kunta": "Kemi",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 80.0
+  },
+  {
+    "kuntakoodi": 320.0,
+    "kunta": "Kemij\u00e4rvi",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 81.0
+  },
+  {
+    "kuntakoodi": 241.0,
+    "kunta": "Keminmaa",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 82.0
+  },
+  {
+    "kuntakoodi": 322.0,
+    "kunta": "Kemi\u00f6nsaari",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 83.0
+  },
+  {
+    "kuntakoodi": 244.0,
+    "kunta": "Kempele",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 84.0
+  },
+  {
+    "kuntakoodi": 245.0,
+    "kunta": "Kerava",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 85.0
+  },
+  {
+    "kuntakoodi": 249.0,
+    "kunta": "Keuruu",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 86.0
+  },
+  {
+    "kuntakoodi": 250.0,
+    "kunta": "Kihni\u00f6",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 87.0
+  },
+  {
+    "kuntakoodi": 256.0,
+    "kunta": "Kinnula",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 88.0
+  },
+  {
+    "kuntakoodi": 257.0,
+    "kunta": "Kirkkonummi",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 89.0
+  },
+  {
+    "kuntakoodi": 260.0,
+    "kunta": "Kitee",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 90.0
+  },
+  {
+    "kuntakoodi": 261.0,
+    "kunta": "Kittil\u00e4",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 91.0
+  },
+  {
+    "kuntakoodi": 263.0,
+    "kunta": "Kiuruvesi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 92.0
+  },
+  {
+    "kuntakoodi": 265.0,
+    "kunta": "Kivij\u00e4rvi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 93.0
+  },
+  {
+    "kuntakoodi": 271.0,
+    "kunta": "Kokem\u00e4ki",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 94.0
+  },
+  {
+    "kuntakoodi": 272.0,
+    "kunta": "Kokkola",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 95.0
+  },
+  {
+    "kuntakoodi": 273.0,
+    "kunta": "Kolari",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 96.0
+  },
+  {
+    "kuntakoodi": 275.0,
+    "kunta": "Konnevesi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 97.0
+  },
+  {
+    "kuntakoodi": 276.0,
+    "kunta": "Kontiolahti",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 98.0
+  },
+  {
+    "kuntakoodi": 280.0,
+    "kunta": "Korsn\u00e4s",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 99.0
+  },
+  {
+    "kuntakoodi": 284.0,
+    "kunta": "Koski tl",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 100.0
+  },
+  {
+    "kuntakoodi": 285.0,
+    "kunta": "Kotka",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 101.0
+  },
+  {
+    "kuntakoodi": 286.0,
+    "kunta": "Kouvola",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 102.0
+  },
+  {
+    "kuntakoodi": 287.0,
+    "kunta": "Kristiinankaupunki",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 103.0
+  },
+  {
+    "kuntakoodi": 288.0,
+    "kunta": "Kruunupyy",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 104.0
+  },
+  {
+    "kuntakoodi": 290.0,
+    "kunta": "Kuhmo",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 105.0
+  },
+  {
+    "kuntakoodi": 291.0,
+    "kunta": "Kuhmoinen",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 106.0
+  },
+  {
+    "kuntakoodi": 297.0,
+    "kunta": "Kuopio",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 107.0
+  },
+  {
+    "kuntakoodi": 300.0,
+    "kunta": "Kuortane",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 108.0
+  },
+  {
+    "kuntakoodi": 301.0,
+    "kunta": "Kurikka",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 109.0
+  },
+  {
+    "kuntakoodi": 304.0,
+    "kunta": "Kustavi",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 110.0
+  },
+  {
+    "kuntakoodi": 305.0,
+    "kunta": "Kuusamo",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 111.0
+  },
+  {
+    "kuntakoodi": 312.0,
+    "kunta": "Kyyj\u00e4rvi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 112.0
+  },
+  {
+    "kuntakoodi": 316.0,
+    "kunta": "K\u00e4rk\u00f6l\u00e4",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 113.0
+  },
+  {
+    "kuntakoodi": 317.0,
+    "kunta": "K\u00e4rs\u00e4m\u00e4ki",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 114.0
+  },
+  {
+    "kuntakoodi": 398.0,
+    "kunta": "Lahti",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 115.0
+  },
+  {
+    "kuntakoodi": 399.0,
+    "kunta": "Laihia",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 116.0
+  },
+  {
+    "kuntakoodi": 400.0,
+    "kunta": "Laitila",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 117.0
+  },
+  {
+    "kuntakoodi": 407.0,
+    "kunta": "Lapinj\u00e4rvi",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 118.0
+  },
+  {
+    "kuntakoodi": 402.0,
+    "kunta": "Lapinlahti",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 119.0
+  },
+  {
+    "kuntakoodi": 403.0,
+    "kunta": "Lappaj\u00e4rvi",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 120.0
+  },
+  {
+    "kuntakoodi": 405.0,
+    "kunta": "Lappeenranta",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 121.0
+  },
+  {
+    "kuntakoodi": 408.0,
+    "kunta": "Lapua",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 122.0
+  },
+  {
+    "kuntakoodi": 410.0,
+    "kunta": "Laukaa",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 123.0
+  },
+  {
+    "kuntakoodi": 416.0,
+    "kunta": "Lemi",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 124.0
+  },
+  {
+    "kuntakoodi": 418.0,
+    "kunta": "Lemp\u00e4\u00e4l\u00e4",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 125.0
+  },
+  {
+    "kuntakoodi": 420.0,
+    "kunta": "Lepp\u00e4virta",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 126.0
+  },
+  {
+    "kuntakoodi": 421.0,
+    "kunta": "Lestij\u00e4rvi",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 127.0
+  },
+  {
+    "kuntakoodi": 422.0,
+    "kunta": "Lieksa",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 128.0
+  },
+  {
+    "kuntakoodi": 423.0,
+    "kunta": "Lieto",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 129.0
+  },
+  {
+    "kuntakoodi": 425.0,
+    "kunta": "Liminka",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 130.0
+  },
+  {
+    "kuntakoodi": 426.0,
+    "kunta": "Liperi",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 131.0
+  },
+  {
+    "kuntakoodi": 444.0,
+    "kunta": "Lohja",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 132.0
+  },
+  {
+    "kuntakoodi": 430.0,
+    "kunta": "Loimaa",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 133.0
+  },
+  {
+    "kuntakoodi": 433.0,
+    "kunta": "Loppi",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 134.0
+  },
+  {
+    "kuntakoodi": 434.0,
+    "kunta": "Loviisa",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 135.0
+  },
+  {
+    "kuntakoodi": 435.0,
+    "kunta": "Luhanka",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 136.0
+  },
+  {
+    "kuntakoodi": 436.0,
+    "kunta": "Lumijoki",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 137.0
+  },
+  {
+    "kuntakoodi": 440.0,
+    "kunta": "Luoto",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 138.0
+  },
+  {
+    "kuntakoodi": 441.0,
+    "kunta": "Luum\u00e4ki",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 139.0
+  },
+  {
+    "kuntakoodi": 475.0,
+    "kunta": "Maalahti",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 140.0
+  },
+  {
+    "kuntakoodi": 480.0,
+    "kunta": "Marttila",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 141.0
+  },
+  {
+    "kuntakoodi": 481.0,
+    "kunta": "Masku",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 142.0
+  },
+  {
+    "kuntakoodi": 483.0,
+    "kunta": "Merij\u00e4rvi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 143.0
+  },
+  {
+    "kuntakoodi": 484.0,
+    "kunta": "Merikarvia",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 144.0
+  },
+  {
+    "kuntakoodi": 489.0,
+    "kunta": "Miehikk\u00e4l\u00e4",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 145.0
+  },
+  {
+    "kuntakoodi": 491.0,
+    "kunta": "Mikkeli",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 146.0
+  },
+  {
+    "kuntakoodi": 494.0,
+    "kunta": "Muhos",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 147.0
+  },
+  {
+    "kuntakoodi": 495.0,
+    "kunta": "Multia",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 148.0
+  },
+  {
+    "kuntakoodi": 498.0,
+    "kunta": "Muonio",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 149.0
+  },
+  {
+    "kuntakoodi": 499.0,
+    "kunta": "Mustasaari",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 150.0
+  },
+  {
+    "kuntakoodi": 500.0,
+    "kunta": "Muurame",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 151.0
+  },
+  {
+    "kuntakoodi": 503.0,
+    "kunta": "Myn\u00e4m\u00e4ki",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 152.0
+  },
+  {
+    "kuntakoodi": 504.0,
+    "kunta": "Myrskyl\u00e4",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 153.0
+  },
+  {
+    "kuntakoodi": 505.0,
+    "kunta": "M\u00e4nts\u00e4l\u00e4",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 154.0
+  },
+  {
+    "kuntakoodi": 508.0,
+    "kunta": "M\u00e4ntt\u00e4-Vilppula",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 155.0
+  },
+  {
+    "kuntakoodi": 507.0,
+    "kunta": "M\u00e4ntyharju",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 156.0
+  },
+  {
+    "kuntakoodi": 529.0,
+    "kunta": "Naantali",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 157.0
+  },
+  {
+    "kuntakoodi": 531.0,
+    "kunta": "Nakkila",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 158.0
+  },
+  {
+    "kuntakoodi": 535.0,
+    "kunta": "Nivala",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 159.0
+  },
+  {
+    "kuntakoodi": 536.0,
+    "kunta": "Nokia",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 160.0
+  },
+  {
+    "kuntakoodi": 538.0,
+    "kunta": "Nousiainen",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 161.0
+  },
+  {
+    "kuntakoodi": 541.0,
+    "kunta": "Nurmes",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 162.0
+  },
+  {
+    "kuntakoodi": 543.0,
+    "kunta": "Nurmij\u00e4rvi",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 163.0
+  },
+  {
+    "kuntakoodi": 545.0,
+    "kunta": "N\u00e4rpi\u00f6",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 164.0
+  },
+  {
+    "kuntakoodi": 560.0,
+    "kunta": "Orimattila",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 165.0
+  },
+  {
+    "kuntakoodi": 561.0,
+    "kunta": "Orip\u00e4\u00e4",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 166.0
+  },
+  {
+    "kuntakoodi": 562.0,
+    "kunta": "Orivesi",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 167.0
+  },
+  {
+    "kuntakoodi": 563.0,
+    "kunta": "Oulainen",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 168.0
+  },
+  {
+    "kuntakoodi": 564.0,
+    "kunta": "Oulu",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 169.0
+  },
+  {
+    "kuntakoodi": 309.0,
+    "kunta": "Outokumpu",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 170.0
+  },
+  {
+    "kuntakoodi": 576.0,
+    "kunta": "Padasjoki",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 171.0
+  },
+  {
+    "kuntakoodi": 577.0,
+    "kunta": "Paimio",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 172.0
+  },
+  {
+    "kuntakoodi": 578.0,
+    "kunta": "Paltamo",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 173.0
+  },
+  {
+    "kuntakoodi": 445.0,
+    "kunta": "Parainen",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 174.0
+  },
+  {
+    "kuntakoodi": 580.0,
+    "kunta": "Parikkala",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 175.0
+  },
+  {
+    "kuntakoodi": 581.0,
+    "kunta": "Parkano",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 176.0
+  },
+  {
+    "kuntakoodi": 599.0,
+    "kunta": "Peders\u00f6re",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 177.0
+  },
+  {
+    "kuntakoodi": 583.0,
+    "kunta": "Pelkosenniemi",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 178.0
+  },
+  {
+    "kuntakoodi": 854.0,
+    "kunta": "Pello",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 179.0
+  },
+  {
+    "kuntakoodi": 584.0,
+    "kunta": "Perho",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 180.0
+  },
+  {
+    "kuntakoodi": 588.0,
+    "kunta": "Pertunmaa",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 181.0
+  },
+  {
+    "kuntakoodi": 592.0,
+    "kunta": "Pet\u00e4j\u00e4vesi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 182.0
+  },
+  {
+    "kuntakoodi": 593.0,
+    "kunta": "Pieks\u00e4m\u00e4ki",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 183.0
+  },
+  {
+    "kuntakoodi": 595.0,
+    "kunta": "Pielavesi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 184.0
+  },
+  {
+    "kuntakoodi": 598.0,
+    "kunta": "Pietarsaari",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 185.0
+  },
+  {
+    "kuntakoodi": 601.0,
+    "kunta": "Pihtipudas",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 186.0
+  },
+  {
+    "kuntakoodi": 604.0,
+    "kunta": "Pirkkala",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 187.0
+  },
+  {
+    "kuntakoodi": 607.0,
+    "kunta": "Polvij\u00e4rvi",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 188.0
+  },
+  {
+    "kuntakoodi": 608.0,
+    "kunta": "Pomarkku",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 189.0
+  },
+  {
+    "kuntakoodi": 609.0,
+    "kunta": "Pori",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 190.0
+  },
+  {
+    "kuntakoodi": 611.0,
+    "kunta": "Pornainen",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 191.0
+  },
+  {
+    "kuntakoodi": 638.0,
+    "kunta": "Porvoo",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 192.0
+  },
+  {
+    "kuntakoodi": 614.0,
+    "kunta": "Posio",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 193.0
+  },
+  {
+    "kuntakoodi": 615.0,
+    "kunta": "Pudasj\u00e4rvi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 194.0
+  },
+  {
+    "kuntakoodi": 616.0,
+    "kunta": "Pukkila",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 195.0
+  },
+  {
+    "kuntakoodi": 619.0,
+    "kunta": "Punkalaidun",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 196.0
+  },
+  {
+    "kuntakoodi": 620.0,
+    "kunta": "Puolanka",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 197.0
+  },
+  {
+    "kuntakoodi": 623.0,
+    "kunta": "Puumala",
+    "shp-koodi": 10.0,
+    "shp": "Etel\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 198.0
+  },
+  {
+    "kuntakoodi": 624.0,
+    "kunta": "Pyht\u00e4\u00e4",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 199.0
+  },
+  {
+    "kuntakoodi": 625.0,
+    "kunta": "Pyh\u00e4joki",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 200.0
+  },
+  {
+    "kuntakoodi": 626.0,
+    "kunta": "Pyh\u00e4j\u00e4rvi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 201.0
+  },
+  {
+    "kuntakoodi": 630.0,
+    "kunta": "Pyh\u00e4nt\u00e4",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 202.0
+  },
+  {
+    "kuntakoodi": 631.0,
+    "kunta": "Pyh\u00e4ranta",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 203.0
+  },
+  {
+    "kuntakoodi": 635.0,
+    "kunta": "P\u00e4lk\u00e4ne",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 204.0
+  },
+  {
+    "kuntakoodi": 636.0,
+    "kunta": "P\u00f6yty\u00e4",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 205.0
+  },
+  {
+    "kuntakoodi": 678.0,
+    "kunta": "Raahe",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 206.0
+  },
+  {
+    "kuntakoodi": 710.0,
+    "kunta": "Raasepori",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 207.0
+  },
+  {
+    "kuntakoodi": 680.0,
+    "kunta": "Raisio",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 208.0
+  },
+  {
+    "kuntakoodi": 681.0,
+    "kunta": "Rantasalmi",
+    "shp-koodi": 11.0,
+    "shp": "It\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 209.0
+  },
+  {
+    "kuntakoodi": 683.0,
+    "kunta": "Ranua",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 210.0
+  },
+  {
+    "kuntakoodi": 684.0,
+    "kunta": "Rauma",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 211.0
+  },
+  {
+    "kuntakoodi": 686.0,
+    "kunta": "Rautalampi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 212.0
+  },
+  {
+    "kuntakoodi": 687.0,
+    "kunta": "Rautavaara",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 213.0
+  },
+  {
+    "kuntakoodi": 689.0,
+    "kunta": "Rautj\u00e4rvi",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 214.0
+  },
+  {
+    "kuntakoodi": 691.0,
+    "kunta": "Reisj\u00e4rvi",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 215.0
+  },
+  {
+    "kuntakoodi": 694.0,
+    "kunta": "Riihim\u00e4ki",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 216.0
+  },
+  {
+    "kuntakoodi": 697.0,
+    "kunta": "Ristij\u00e4rvi",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 217.0
+  },
+  {
+    "kuntakoodi": 698.0,
+    "kunta": "Rovaniemi",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 218.0
+  },
+  {
+    "kuntakoodi": 700.0,
+    "kunta": "Ruokolahti",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 219.0
+  },
+  {
+    "kuntakoodi": 702.0,
+    "kunta": "Ruovesi",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 220.0
+  },
+  {
+    "kuntakoodi": 704.0,
+    "kunta": "Rusko",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 221.0
+  },
+  {
+    "kuntakoodi": 707.0,
+    "kunta": "R\u00e4\u00e4kkyl\u00e4",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 222.0
+  },
+  {
+    "kuntakoodi": 729.0,
+    "kunta": "Saarij\u00e4rvi",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 223.0
+  },
+  {
+    "kuntakoodi": 732.0,
+    "kunta": "Salla",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 224.0
+  },
+  {
+    "kuntakoodi": 734.0,
+    "kunta": "Salo",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 225.0
+  },
+  {
+    "kuntakoodi": 790.0,
+    "kunta": "Sastamala",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 226.0
+  },
+  {
+    "kuntakoodi": 738.0,
+    "kunta": "Sauvo",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 227.0
+  },
+  {
+    "kuntakoodi": 739.0,
+    "kunta": "Savitaipale",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 228.0
+  },
+  {
+    "kuntakoodi": 740.0,
+    "kunta": "Savonlinna",
+    "shp-koodi": 11.0,
+    "shp": "It\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 229.0
+  },
+  {
+    "kuntakoodi": 742.0,
+    "kunta": "Savukoski",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 230.0
+  },
+  {
+    "kuntakoodi": 743.0,
+    "kunta": "Sein\u00e4joki",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 231.0
+  },
+  {
+    "kuntakoodi": 746.0,
+    "kunta": "Sievi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 232.0
+  },
+  {
+    "kuntakoodi": 747.0,
+    "kunta": "Siikainen",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 233.0
+  },
+  {
+    "kuntakoodi": 748.0,
+    "kunta": "Siikajoki",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 234.0
+  },
+  {
+    "kuntakoodi": 791.0,
+    "kunta": "Siikalatva",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 235.0
+  },
+  {
+    "kuntakoodi": 749.0,
+    "kunta": "Siilinj\u00e4rvi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 236.0
+  },
+  {
+    "kuntakoodi": 751.0,
+    "kunta": "Simo",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 237.0
+  },
+  {
+    "kuntakoodi": 753.0,
+    "kunta": "Sipoo",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 238.0
+  },
+  {
+    "kuntakoodi": 755.0,
+    "kunta": "Siuntio",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 239.0
+  },
+  {
+    "kuntakoodi": 758.0,
+    "kunta": "Sodankyl\u00e4",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 240.0
+  },
+  {
+    "kuntakoodi": 759.0,
+    "kunta": "Soini",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 241.0
+  },
+  {
+    "kuntakoodi": 761.0,
+    "kunta": "Somero",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 242.0
+  },
+  {
+    "kuntakoodi": 762.0,
+    "kunta": "Sonkaj\u00e4rvi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 243.0
+  },
+  {
+    "kuntakoodi": 765.0,
+    "kunta": "Sotkamo",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 244.0
+  },
+  {
+    "kuntakoodi": 768.0,
+    "kunta": "Sulkava",
+    "shp-koodi": 11.0,
+    "shp": "It\u00e4-Savo",
+    "erva": "KYS",
+    "lkm": 245.0
+  },
+  {
+    "kuntakoodi": 777.0,
+    "kunta": "Suomussalmi",
+    "shp-koodi": 19.0,
+    "shp": "Kainuu",
+    "erva": "OYS",
+    "lkm": 246.0
+  },
+  {
+    "kuntakoodi": 778.0,
+    "kunta": "Suonenjoki",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 247.0
+  },
+  {
+    "kuntakoodi": 781.0,
+    "kunta": "Sysm\u00e4",
+    "shp-koodi": 7.0,
+    "shp": "P\u00e4ij\u00e4t-H\u00e4me",
+    "erva": "HYKS",
+    "lkm": 248.0
+  },
+  {
+    "kuntakoodi": 783.0,
+    "kunta": "S\u00e4kyl\u00e4",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 249.0
+  },
+  {
+    "kuntakoodi": 831.0,
+    "kunta": "Taipalsaari",
+    "shp-koodi": 9.0,
+    "shp": "Etel\u00e4-Karjala",
+    "erva": "HYKS",
+    "lkm": 250.0
+  },
+  {
+    "kuntakoodi": 832.0,
+    "kunta": "Taivalkoski",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 251.0
+  },
+  {
+    "kuntakoodi": 833.0,
+    "kunta": "Taivassalo",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 252.0
+  },
+  {
+    "kuntakoodi": 834.0,
+    "kunta": "Tammela",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 253.0
+  },
+  {
+    "kuntakoodi": 837.0,
+    "kunta": "Tampere",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 254.0
+  },
+  {
+    "kuntakoodi": 844.0,
+    "kunta": "Tervo",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 255.0
+  },
+  {
+    "kuntakoodi": 845.0,
+    "kunta": "Tervola",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 256.0
+  },
+  {
+    "kuntakoodi": 846.0,
+    "kunta": "Teuva",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 257.0
+  },
+  {
+    "kuntakoodi": 848.0,
+    "kunta": "Tohmaj\u00e4rvi",
+    "shp-koodi": 12.0,
+    "shp": "Pohjois-Karjala",
+    "erva": "KYS",
+    "lkm": 258.0
+  },
+  {
+    "kuntakoodi": 849.0,
+    "kunta": "Toholampi",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 259.0
+  },
+  {
+    "kuntakoodi": 850.0,
+    "kunta": "Toivakka",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 260.0
+  },
+  {
+    "kuntakoodi": 851.0,
+    "kunta": "Tornio",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 261.0
+  },
+  {
+    "kuntakoodi": 853.0,
+    "kunta": "Turku",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 262.0
+  },
+  {
+    "kuntakoodi": 857.0,
+    "kunta": "Tuusniemi",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 263.0
+  },
+  {
+    "kuntakoodi": 858.0,
+    "kunta": "Tuusula",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 264.0
+  },
+  {
+    "kuntakoodi": 859.0,
+    "kunta": "Tyrn\u00e4v\u00e4",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 265.0
+  },
+  {
+    "kuntakoodi": 886.0,
+    "kunta": "Ulvila",
+    "shp-koodi": 4.0,
+    "shp": "Satakunta",
+    "erva": "TYKS",
+    "lkm": 266.0
+  },
+  {
+    "kuntakoodi": 887.0,
+    "kunta": "Urjala",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 267.0
+  },
+  {
+    "kuntakoodi": 889.0,
+    "kunta": "Utaj\u00e4rvi",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 268.0
+  },
+  {
+    "kuntakoodi": 890.0,
+    "kunta": "Utsjoki",
+    "shp-koodi": 21.0,
+    "shp": "Lappi",
+    "erva": "OYS",
+    "lkm": 269.0
+  },
+  {
+    "kuntakoodi": 892.0,
+    "kunta": "Uurainen",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 270.0
+  },
+  {
+    "kuntakoodi": 893.0,
+    "kunta": "Uusikaarlepyy",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 271.0
+  },
+  {
+    "kuntakoodi": 895.0,
+    "kunta": "Uusikaupunki",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 272.0
+  },
+  {
+    "kuntakoodi": 785.0,
+    "kunta": "Vaala",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 273.0
+  },
+  {
+    "kuntakoodi": 905.0,
+    "kunta": "Vaasa",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 274.0
+  },
+  {
+    "kuntakoodi": 908.0,
+    "kunta": "Valkeakoski",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 275.0
+  },
+  {
+    "kuntakoodi": 92.0,
+    "kunta": "Vantaa",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 276.0
+  },
+  {
+    "kuntakoodi": 915.0,
+    "kunta": "Varkaus",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 277.0
+  },
+  {
+    "kuntakoodi": 918.0,
+    "kunta": "Vehmaa",
+    "shp-koodi": 3.0,
+    "shp": "Varsinais-Suomi",
+    "erva": "TYKS",
+    "lkm": 278.0
+  },
+  {
+    "kuntakoodi": 921.0,
+    "kunta": "Vesanto",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 279.0
+  },
+  {
+    "kuntakoodi": 922.0,
+    "kunta": "Vesilahti",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 280.0
+  },
+  {
+    "kuntakoodi": 924.0,
+    "kunta": "Veteli",
+    "shp-koodi": 17.0,
+    "shp": "Keski-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 281.0
+  },
+  {
+    "kuntakoodi": 925.0,
+    "kunta": "Vierem\u00e4",
+    "shp-koodi": 13.0,
+    "shp": "Pohjois-Savo",
+    "erva": "KYS",
+    "lkm": 282.0
+  },
+  {
+    "kuntakoodi": 927.0,
+    "kunta": "Vihti",
+    "shp-koodi": 25.0,
+    "shp": "HUS",
+    "erva": "HYKS",
+    "lkm": 283.0
+  },
+  {
+    "kuntakoodi": 931.0,
+    "kunta": "Viitasaari",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 284.0
+  },
+  {
+    "kuntakoodi": 934.0,
+    "kunta": "Vimpeli",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 285.0
+  },
+  {
+    "kuntakoodi": 935.0,
+    "kunta": "Virolahti",
+    "shp-koodi": 8.0,
+    "shp": "Kymenlaakso",
+    "erva": "HYKS",
+    "lkm": 286.0
+  },
+  {
+    "kuntakoodi": 936.0,
+    "kunta": "Virrat",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 287.0
+  },
+  {
+    "kuntakoodi": 946.0,
+    "kunta": "V\u00f6yri",
+    "shp-koodi": 16.0,
+    "shp": "Vaasa",
+    "erva": "TYKS",
+    "lkm": 288.0
+  },
+  {
+    "kuntakoodi": 976.0,
+    "kunta": "Ylitornio",
+    "shp-koodi": 20.0,
+    "shp": "L\u00e4nsi-Pohja",
+    "erva": "OYS",
+    "lkm": 289.0
+  },
+  {
+    "kuntakoodi": 977.0,
+    "kunta": "Ylivieska",
+    "shp-koodi": 18.0,
+    "shp": "Pohjois-Pohjanmaa",
+    "erva": "OYS",
+    "lkm": 290.0
+  },
+  {
+    "kuntakoodi": 980.0,
+    "kunta": "Yl\u00f6j\u00e4rvi",
+    "shp-koodi": 6.0,
+    "shp": "Pirkanmaa",
+    "erva": "TAYS",
+    "lkm": 291.0
+  },
+  {
+    "kuntakoodi": 981.0,
+    "kunta": "Yp\u00e4j\u00e4",
+    "shp-koodi": 5.0,
+    "shp": "Kanta-H\u00e4me",
+    "erva": "TAYS",
+    "lkm": 292.0
+  },
+  {
+    "kuntakoodi": 989.0,
+    "kunta": "\u00c4ht\u00e4ri",
+    "shp-koodi": 15.0,
+    "shp": "Etel\u00e4-Pohjanmaa",
+    "erva": "TAYS",
+    "lkm": 293.0
+  },
+  {
+    "kuntakoodi": 992.0,
+    "kunta": "\u00c4\u00e4nekoski",
+    "shp-koodi": 14.0,
+    "shp": "Keski-Suomi",
+    "erva": "KYS",
+    "lkm": 294.0
+  }
+]
