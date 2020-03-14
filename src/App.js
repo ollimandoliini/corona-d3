@@ -44,6 +44,14 @@ const Map2 = ({ data }) => {
   const numberOfConfirmed = (data, district) =>
     data.confirmed.filter(a => a.healthCareDistrict === district).length;
 
+  const color = num => {
+    if (num === 0) {
+      return "rgba(255, 0, 0,0)";
+    }
+    const alpha = Math.log2(num) / 10;
+    return `rgba(255, 0, 0, ${alpha})`;
+  };
+
   useEffect(() => {
     if (data?.confirmed && d3Map.current) {
       console.log(data);
@@ -59,8 +67,10 @@ const Map2 = ({ data }) => {
         .append("path")
         .attr("d", path)
         .attr("class", "districts")
-        .attr("fill", "rgb(38,50,56)")
-        .attr("stroke", "#FFFFFF");
+        .style("fill", d =>
+          color(numberOfConfirmed(data, d.properties.district))
+        )
+        .attr("stroke", "#000000");
       svg
         .selectAll(".labels")
         .data(geoJson.features)
@@ -69,7 +79,7 @@ const Map2 = ({ data }) => {
         .attr("class", "count")
         .attr("transform", d => "translate(" + path.centroid(d) + ")")
         .text(d => numberOfConfirmed(data, d.properties.district))
-        .style("fill", "white");
+        .style("fill", "black");
     }
   }, [data]);
 

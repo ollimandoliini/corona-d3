@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-svg {
+/* svg {
   border: 1px solid black;
-}
+} */
 
 .district:hover {
   /* -webkit-transform: scale(1.005);
