@@ -12,9 +12,24 @@ code {
     monospace;
 }
 
-/* svg {
+#root {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "main map";
+}
+
+.main {
+  grid-area: main;
+}
+.chart-container {
   border: 1px solid black;
-} */
+}
 
 .district:hover {
   /* -webkit-transform: scale(1.005);
