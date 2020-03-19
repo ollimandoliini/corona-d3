@@ -1,10 +1,20 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
-import { default as geoJson } from "./sairaanhoitopiirit_geo.json";
-import { geoPath, geoCentroid, geoMercator } from "d3-geo";
 import _ from "lodash";
 import * as d3 from "d3";
 import polylabel from "polylabel";
+import {
+  geoPath,
+  geoCentroid,
+  geoMercator,
+  ExtendedFeatureCollection,
+  ExtendedFeature
+} from "d3-geo";
+import { MultiPolygon, Polygon } from "geojson";
+
+const geoJson = require("./sairaanhoitopiirit_geo.json") as ExtendedFeatureCollection<
+  ExtendedFeature<MultiPolygon | Polygon>
+>;
 
 const height = 800;
 const width = height / 2;
@@ -19,7 +29,7 @@ const projection = geoMercator()
 
 const path = geoPath().projection(projection);
 
-const Map2 = ({ data }: D3Props) => {
+const Map2 = ({ data, setDistrict }: MapProps) => {
   const d3Map = useRef(null);
 
   const numberOfConfirmed = (data: CoronaData, district: string) =>
@@ -47,10 +57,11 @@ const Map2 = ({ data }: D3Props) => {
         .attr("d", path)
         .attr("class", "districts")
         .style("fill", d =>
-          color(numberOfConfirmed(data, d.properties.district))
+          color(numberOfConfirmed(data, d?.properties?.district))
         )
         .attr("stroke", "#000000")
-        .attr("stroke-width", 0.3);
+        .attr("stroke-width", 0.3)
+        .on("click", d => setDistrict(d?.properties?.district));
 
       svg
         .selectAll(".labels")
@@ -58,21 +69,10 @@ const Map2 = ({ data }: D3Props) => {
         .enter()
         .append("text")
         .attr("class", "count")
-        .attr("transform", d => {
-          var coord = d.geometry.coordinates;
-          if (d.geometry.type === "MultiPolygon") {
-            var u = d3.scan(
-              coord.map(function(p) {
-                return -d3.polygonArea(p[0]);
-              })
-            );
-            coord = coord[u];
-          }
-          var n = polylabel([coord[0].map(projection)]);
-          return `translate(${n})`;
-        })
-        .text(d => numberOfConfirmed(data, d.properties.district))
-        .style("fill", "black");
+        .style("fill", "black")
+        .text("kissa")
+        .attr("transform", d => "translate(" + path.centroid(d) + ")")
+        .text(d => numberOfConfirmed(data, d?.properties?.district));
     }
   }, [data]);
 
@@ -83,7 +83,7 @@ const Map2 = ({ data }: D3Props) => {
   );
 };
 
-const Chart = ({ data }: D3Props) => {
+const Chart = ({ data }: DataProps) => {
   const d3Chart = useRef(null);
 
   if (data?.confirmed && d3Chart.current) {
@@ -96,49 +96,45 @@ const Chart = ({ data }: D3Props) => {
       date: Date.parse(a.date)
     }));
 
-    const getDaysArray = (start, end) => {
-      const arr = [];
-      for (let dt = start; dt <= end; dt.setDate(dt.getDate() + 1)) {
-        arr.push(new Date(dt));
-      }
-      return arr;
-    };
+    // const getDaysArray = (start, end) => {
+    //   const arr = [];
+    //   for (let dt = start; dt <= end; dt.setDate(dt.getDate() + 1)) {
+    //     arr.push(new Date(dt));
+    //   }
+    //   return arr;
+    // };
 
-    const byDates = dates => {
-      const firstDate = _.min(dates.map(a => a.date));
-      const lastDate = _.max(dates.map(a => a.date));
+    // const byDates = dates => {
+    //   const firstDate = _.min(dates.map(a => a.date));
+    //   const lastDate = _.max(dates.map(a => a.date));
 
-      // console.log(getDaysArray(new Date(firstDate), new Date(lastDate)));
-    };
-    byDates(dates);
+    //   // console.log(getDaysArray(new Date(firstDate), new Date(lastDate)));
+    // };
+    // byDates(dates);
 
-    const svg = d3
-      .select(d3Chart.current)
-      .attr("width", width)
-      .attr("height", height);
-    var x = d3
-      .scaleTime()
-      .domain(
-        d3.extent(dates, function(d) {
-          return d.date;
-        })
-      )
-      .range([0, width]);
-    svg
-      .append("g")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
+    // const svg = d3
+    //   .select(d3Chart.current)
+    //   .attr("width", width)
+    //   .attr("height", height);
+    // var x = d3
+    //   .scaleTime()
+    //   .domain(d3.extent(dates, d => d?.date))
+    //   .range([0, width]);
+    // svg
+    //   .append("g")
+    //   .attr("transform", "translate(0," + height + ")")
+    //   .call(d3.axisBottom(x));
 
-    const y = d3
-      .scaleLinear()
-      .domain([
-        0,
-        d3.max(dates, function(d) {
-          return +d.value;
-        })
-      ])
-      .range([height, 0]);
-    svg.append("g").call(d3.axisLeft(y));
+    // const y = d3
+    //   .scaleLinear()
+    //   .domain([
+    //     0,
+    //     d3.max(dates, function(d) {
+    //       return +d.value;
+    //     })
+    //   ])
+    //   .range([height, 0]);
+    // svg.append("g").call(d3.axisLeft(y));
   }
 
   return (
@@ -148,8 +144,13 @@ const Chart = ({ data }: D3Props) => {
   );
 };
 
-interface D3Props {
-  data: CoronaData;
+interface DataProps {
+  data: CoronaData | null;
+}
+
+interface MapProps {
+  data: CoronaData | null;
+  setDistrict: any;
 }
 
 interface CoronaData {
@@ -167,13 +168,69 @@ interface Confirmed {
 }
 
 type Death = Confirmed;
-
 type Recovered = Omit<Confirmed, "infectionSourceCountry" | "infectionSource">;
 
-// {"id":"1","date":"2020-01-29T11:00:00.000Z","healthCareDistrict":"Lappi","infectionSourceCountry":"CHN","infectionSource":"unknown"}
+interface StatsProps {
+  data: CoronaData | null;
+  district: string | null;
+}
+
+const Stats = ({ data, district }: StatsProps) => {
+  if (!data) {
+    return null;
+  }
+
+  const total =
+    data.confirmed.length + data.recovered.length + data.deaths.length;
+
+  let stats;
+
+  if (!district) {
+    stats = {
+      confirmed: data.confirmed.length,
+      recovered: data.recovered.length,
+      deaths: data.deaths.length
+    };
+  } else {
+    stats = {
+      confirmed: data.confirmed.filter(a => a.healthCareDistrict === district)
+        .length,
+      recovered: data.recovered.filter(a => a.healthCareDistrict === district)
+        .length,
+      deaths: data.deaths.filter(a => a.healthCareDistrict === district).length
+    };
+  }
+
+  return (
+    <div>
+      {district ? <h2>{district}</h2> : <h2>Koko Suomi</h2>}
+      <table className="stats-table">
+        <tbody>
+          <tr>
+            <td>Vahvistetut</td>
+            <td>{stats.confirmed}</td>
+          </tr>
+          <tr>
+            <td>Parantuneet</td>
+            <td>{stats.recovered}</td>
+          </tr>
+          <tr>
+            <td>Kuolleet</td>
+            <td>{stats.deaths}</td>
+          </tr>
+          <tr>
+            <td>Yhteensä</td>
+            <td>{stats.confirmed + stats.recovered + stats.deaths}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+};
 
 function App() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState<CoronaData | null>(null);
+  const [district, setDistrict] = useState<string | null>(null);
 
   useEffect(() => {
     (async () => {
@@ -186,9 +243,11 @@ function App() {
   return (
     <div className="App">
       <div className="main">
-        <Chart data={data} />
+        <h1>COVID-19 Suomessa</h1>
+        <Stats data={data} district={district} />
+        {/* <Chart data={data} /> */}
       </div>
-      <Map2 data={data} />
+      <Map2 data={data} setDistrict={setDistrict} />
     </div>
   );
 }
