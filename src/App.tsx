@@ -29,7 +29,13 @@ const projection = geoMercator()
 
 const path = geoPath().projection(projection);
 
-const Map2 = ({ data, setDistrict }: MapProps) => {
+interface MapProps {
+  data: CoronaData | null;
+  district: string | null;
+  setDistrict: React.Dispatch<React.SetStateAction<string | null>>;
+}
+
+const Map2 = ({ data, district, setDistrict }: MapProps) => {
   const d3Map = useRef(null);
 
   const numberOfConfirmed = (data: CoronaData, district: string) =>
@@ -44,6 +50,8 @@ const Map2 = ({ data, setDistrict }: MapProps) => {
   };
 
   useEffect(() => {
+    console.log(district);
+
     if (data?.confirmed && d3Map.current) {
       const svg = d3
         .select(d3Map.current)
@@ -60,8 +68,12 @@ const Map2 = ({ data, setDistrict }: MapProps) => {
           color(numberOfConfirmed(data, d?.properties?.district))
         )
         .attr("stroke", "#000000")
-        .attr("stroke-width", 0.3)
-        .on("click", d => setDistrict(d?.properties?.district));
+        .attr("stroke-width", d =>
+          d?.properties?.district === district ? 1.5 : 0.3
+        )
+        .on("click", d => {
+          setDistrict(d?.properties?.district);
+        });
 
       svg
         .selectAll(".labels")
@@ -70,11 +82,10 @@ const Map2 = ({ data, setDistrict }: MapProps) => {
         .append("text")
         .attr("class", "count")
         .style("fill", "black")
-        .text("kissa")
         .attr("transform", d => "translate(" + path.centroid(d) + ")")
         .text(d => numberOfConfirmed(data, d?.properties?.district));
     }
-  }, [data]);
+  }, [data, district, setDistrict]);
 
   return (
     <div className="map">
@@ -148,11 +159,6 @@ interface DataProps {
   data: CoronaData | null;
 }
 
-interface MapProps {
-  data: CoronaData | null;
-  setDistrict: any;
-}
-
 interface CoronaData {
   confirmed: Confirmed[];
   deaths: Death[];
@@ -180,11 +186,7 @@ const Stats = ({ data, district }: StatsProps) => {
     return null;
   }
 
-  const total =
-    data.confirmed.length + data.recovered.length + data.deaths.length;
-
   let stats;
-
   if (!district) {
     stats = {
       confirmed: data.confirmed.length,
@@ -230,7 +232,7 @@ const Stats = ({ data, district }: StatsProps) => {
 
 function App() {
   const [data, setData] = useState<CoronaData | null>(null);
-  const [district, setDistrict] = useState<string | null>(null);
+  const [district, setDistrict] = useState<string | null>("Pohjois-Savo");
 
   useEffect(() => {
     (async () => {
@@ -247,7 +249,7 @@ function App() {
         <Stats data={data} district={district} />
         {/* <Chart data={data} /> */}
       </div>
-      <Map2 data={data} setDistrict={setDistrict} />
+      <Map2 data={data} district={district} setDistrict={setDistrict} />
     </div>
   );
 }
