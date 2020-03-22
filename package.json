@@ -23,6 +23,7 @@
     "react-scripts": "3.4.0",
     "topojson": "^3.0.2",
     "topojson-client": "^3.1.0",
+    "tslint": "^6.1.0",
     "typescript": "^3.8.3"
   },
   "scripts": {

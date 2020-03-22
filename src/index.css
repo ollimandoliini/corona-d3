@@ -27,9 +27,6 @@ code {
 .main {
   grid-area: main;
 }
-.chart-container {
-  border: 1px solid black;
-}
 
 .district:hover {
   /* -webkit-transform: scale(1.005);
