@@ -51,8 +51,9 @@ const Map = ({ data, district, setDistrict }: MapProps) => {
 
       const svg = d3
         .select(d3Map.current)
-        .attr("width", width)
-        .attr("height", height);
+        // .attr("width", width)
+        // .attr("height", height);
+        .attr("viewBox", `0 0 ${width} ${height}`);
 
       svg
         .selectAll(".districts")

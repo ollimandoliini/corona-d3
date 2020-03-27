@@ -49,3 +49,10 @@ td:first-child {
 td:nth-child(2) {
   text-align: right;
 }
+
+@media screen and (max-width: 650px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+}
