@@ -11,7 +11,7 @@ import * as d3 from "d3";
 
 import { CoronaData } from "../types";
 
-const geoJson = require("../sairaanhoitopiirit_geo.json") as ExtendedFeatureCollection<
+const geoJson = require("../districts_geo.json") as ExtendedFeatureCollection<
   ExtendedFeature<MultiPolygon | Polygon>
 >;
 const height = 800;
@@ -51,8 +51,6 @@ const Map = ({ data, district, setDistrict }: MapProps) => {
 
       const svg = d3
         .select(d3Map.current)
-        // .attr("width", width)
-        // .attr("height", height);
         .attr("viewBox", `0 0 ${width} ${height}`);
 
       svg

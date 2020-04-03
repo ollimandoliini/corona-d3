@@ -45,10 +45,6 @@ const Stats = ({ data, district }: StatsProps) => {
             <td>Kuolleet</td>
             <td>{stats.deaths}</td>
           </tr>
-          <tr>
-            <td>Yhteensä</td>
-            <td>{stats.confirmed + stats.recovered + stats.deaths}</td>
-          </tr>
         </tbody>
       </table>
     </div>

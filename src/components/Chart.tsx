@@ -23,6 +23,7 @@ const getDataForDate = (data: CoronaData, date: Date) => {
   const deaths = data.deaths.filter(
     d => dateFloor(new Date(d.date)) <= dateFloor(date)
   );
+
   return { confirmed, recovered, deaths };
 };
 
@@ -33,12 +34,7 @@ const xLabel = (date: Date) => {
 };
 
 const dateFloor = (d: Date) => {
-  const newDate = new Date();
-  newDate.setDate(d.getDate());
-  newDate.setMonth(d.getMonth());
-  newDate.setFullYear(d.getFullYear());
-
-  return newDate;
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
 };
 
 interface DayData {
@@ -57,19 +53,23 @@ const Chart = ({ data }: ChartProps) => {
       const { confirmed, recovered, deaths } = data;
       const combined = [...confirmed, ...recovered, ...deaths];
       const dates = combined.map(e => new Date(e.date)).sort();
-      const firstDate = new Date(
-        Math.min(...dates.map(date => date.getTime()))
-      );
-      const lastDate = new Date(Math.max(...dates.map(date => date.getTime())));
+
+      const firstDate = dates.reduce((a, b) => {
+        return a < b ? a : b;
+      });
+      const lastDate = dates.reduce((a, b) => {
+        return a > b ? a : b;
+      });
+
       const days = getDaysBetween(firstDate, lastDate).map(a => ({
         date: a,
         cases: getDataForDate(data, a)
       }));
 
+      console.table(days);
+
       const svg = d3
         .select(d3Chart.current)
-        // .attr("width", width + margin.left + margin.right)
-        // .attr("height", height + margin.top + margin.bottom)
         .attr(
           "viewBox",
           `0 0 ${width + margin.left + margin.right} ${height +
@@ -81,8 +81,6 @@ const Chart = ({ data }: ChartProps) => {
 
       let [start, end] = d3.extent(days.map(a => a.date)) as [Date, Date];
 
-      // end = end.setDate(end.getDate() + 1))
-      // dt.setDate(dt.getDate() + 1))
       end = new Date(end.setDate(end.getDate() + 1));
 
       const x = d3
