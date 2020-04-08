@@ -6,7 +6,7 @@ import Chart from "./components/Chart";
 import { CoronaData } from "./types";
 
 const apiUrl =
-  "https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData";
+  "https://w3qa5ydb4l.execute-api.eu-west-1.amazonaws.com/prod/finnishCoronaData/v2";
 
 function App() {
   const [data, setData] = useState<CoronaData | null>(null);
