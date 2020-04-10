@@ -6,6 +6,14 @@ interface StatsProps {
   district: string | null;
 }
 
+interface DatesProps {
+  data: CoronaData | null;
+}
+
+const Dates = ({ data }: DatesProps) => {
+  return null;
+};
+
 const Stats = ({ data, district }: StatsProps) => {
   if (!data) {
     return null;
@@ -16,15 +24,16 @@ const Stats = ({ data, district }: StatsProps) => {
     stats = {
       confirmed: data.confirmed.length,
       recovered: data.recovered.length,
-      deaths: data.deaths.length
+      deaths: data.deaths.length,
     };
   } else {
     stats = {
-      confirmed: data.confirmed.filter(a => a.healthCareDistrict === district)
+      confirmed: data.confirmed.filter((a) => a.healthCareDistrict === district)
         .length,
-      recovered: data.recovered.filter(a => a.healthCareDistrict === district)
+      recovered: data.recovered.filter((a) => a.healthCareDistrict === district)
         .length,
-      deaths: data.deaths.filter(a => a.healthCareDistrict === district).length
+      deaths: data.deaths.filter((a) => a.healthCareDistrict === district)
+        .length,
     };
   }
 
@@ -47,6 +56,8 @@ const Stats = ({ data, district }: StatsProps) => {
           </tr>
         </tbody>
       </table>
+
+      <Dates data={data} />
     </div>
   );
 };

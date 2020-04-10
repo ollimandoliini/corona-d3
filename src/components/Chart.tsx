@@ -15,13 +15,13 @@ const getDaysBetween = (start: Date, end: Date) => {
 
 const getDataForDate = (data: CoronaData, date: Date) => {
   const confirmed = data.confirmed.filter(
-    d => dateFloor(new Date(d.date)) <= dateFloor(date)
+    (d) => dateFloor(new Date(d.date)) <= dateFloor(date)
   );
   const recovered = data.recovered.filter(
-    d => dateFloor(new Date(d.date)) <= dateFloor(date)
+    (d) => dateFloor(new Date(d.date)) <= dateFloor(date)
   );
   const deaths = data.deaths.filter(
-    d => dateFloor(new Date(d.date)) <= dateFloor(date)
+    (d) => dateFloor(new Date(d.date)) <= dateFloor(date)
   );
 
   return { confirmed, recovered, deaths };
@@ -52,7 +52,7 @@ const Chart = ({ data }: ChartProps) => {
       const height = 200 - margin.top - margin.bottom;
       const { confirmed, recovered, deaths } = data;
       const combined = [...confirmed, ...recovered, ...deaths];
-      const dates = combined.map(e => new Date(e.date)).sort();
+      const dates = combined.map((e) => new Date(e.date)).sort();
 
       const firstDate = dates.reduce((a, b) => {
         return a < b ? a : b;
@@ -61,32 +61,27 @@ const Chart = ({ data }: ChartProps) => {
         return a > b ? a : b;
       });
 
-      const days = getDaysBetween(firstDate, lastDate).map(a => ({
+      const days = getDaysBetween(firstDate, lastDate).map((a) => ({
         date: a,
-        cases: getDataForDate(data, a)
+        cases: getDataForDate(data, a),
       }));
-
-      console.table(days);
 
       const svg = d3
         .select(d3Chart.current)
         .attr(
           "viewBox",
-          `0 0 ${width + margin.left + margin.right} ${height +
-            margin.top +
-            margin.bottom}`
+          `0 0 ${width + margin.left + margin.right} ${
+            height + margin.top + margin.bottom
+          }`
         )
         .append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
 
-      let [start, end] = d3.extent(days.map(a => a.date)) as [Date, Date];
+      let [start, end] = d3.extent(days.map((a) => a.date)) as [Date, Date];
 
       end = new Date(end.setDate(end.getDate() + 1));
 
-      const x = d3
-        .scaleTime()
-        .range([0, width])
-        .domain([start, end]);
+      const x = d3.scaleTime().range([0, width]).domain([start, end]);
 
       svg
         .append("g")
@@ -102,7 +97,7 @@ const Chart = ({ data }: ChartProps) => {
         .scaleLinear()
         .domain([
           0,
-          d3.max(days, (d: DayData) => d.cases.confirmed.length) as number
+          d3.max(days, (d: DayData) => d.cases.confirmed.length) as number,
         ])
         .range([height, 0]);
 

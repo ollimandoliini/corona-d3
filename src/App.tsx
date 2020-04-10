@@ -16,7 +16,6 @@ function App() {
     (async () => {
       const result = await fetch(apiUrl);
       const json = await result.json();
-
       setData(json);
     })();
   }, []);
