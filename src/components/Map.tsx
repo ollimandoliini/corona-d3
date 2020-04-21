@@ -49,23 +49,21 @@ const Map = ({ data, district, setDistrict }: MapProps) => {
   return (
     <div className="map">
       <svg className="d3-map" viewBox={`0 0 ${width} ${height}`}>
-        <g>
-          {geoJsonData.features.map((d, i) => (
-            <path
-              key={`path-${i}`}
-              d={path(d) as string | undefined}
-              className=""
-              stroke="#FFFFFF"
-              fill={color(numberOfConfirmed(data, d?.properties?.district))}
-              strokeWidth={0.5}
-            />
-          ))}
-          {geoJsonData.features.map((d, i) => (
-            <text transform={`translate(${path.centroid(d)})`} key={i}>
-              {numberOfConfirmed(data, d?.properties?.district)}
-            </text>
-          ))}
-        </g>
+        {geoJsonData.features.map((d, i) => (
+          <path
+            key={`path-${i}`}
+            d={path(d) as string | undefined}
+            className=""
+            stroke="#FFFFFF"
+            fill={color(numberOfConfirmed(data, d?.properties?.district))}
+            strokeWidth={0.5}
+          />
+        ))}
+        {geoJsonData.features.map((d, i) => (
+          <text transform={`translate(${path.centroid(d)})`} key={i}>
+            {numberOfConfirmed(data, d?.properties?.district)}
+          </text>
+        ))}
       </svg>
     </div>
   );
